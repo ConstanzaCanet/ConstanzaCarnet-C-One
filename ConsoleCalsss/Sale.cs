@@ -18,5 +18,32 @@ namespace ConsoleCalsss
             this.Id = id;
             this.coments = coments;
         }
+
+        //setters & getters
+        public int ID
+        {
+            get
+            {
+                return this.Id;
+            }
+            set
+            {
+                this.Id = value;
+            }
+
+        }
+        
+        public string Coments
+        {
+            get
+            {
+                return this.coments;
+            }
+            set
+            {
+                this.coments = value;
+            }
+        }
+
     }
 }

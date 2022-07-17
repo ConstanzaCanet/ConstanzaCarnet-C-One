@@ -32,5 +32,40 @@ namespace ConsoleCalsss
             this.password = password;
             this.email = email;
         }
+
+        //setters & getters
+
+
+        public int ID
+        {
+            get { return this.Id; }
+            set { this.Id = value; }
+        }
+        public string Name
+        {
+            get { return this.Name; }
+            set { this.name = value; }
+        }
+
+        public string Lastname
+        {
+            get { return this.lasname; }
+            set { this.lasname = value; }
+        }
+        public string UserName
+        {
+            get { return this.userName; }
+            set { this.userName = value; }
+        }
+        public string Password
+        {
+            get { return this.password; }
+            set { this.password = value; }
+        }
+        public string Email
+        {
+            get { return this.email; }
+            set { this.email = value; }
+        }
     }
 }
