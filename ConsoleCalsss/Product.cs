@@ -6,8 +6,8 @@ namespace ConsoleCalsss
     {
         private int Id;
         private string description;
-        private int cost;
-        private int salesPrice;
+        private double cost;
+        private double salesPrice;
         private int stock;
         private User IdUser;
 
@@ -60,7 +60,7 @@ namespace ConsoleCalsss
                 this.description = value;
             }   
         }
-        public int Cost
+        public double Cost
         {
             get
             {
@@ -71,7 +71,7 @@ namespace ConsoleCalsss
                 this.cost = value;
             }       
         }
-        public int SalesPrice
+        public double SalesPrice
         {
             get
             {
